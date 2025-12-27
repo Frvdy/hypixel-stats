@@ -1,6 +1,8 @@
 BedWars Stats Query Tool
+
 A lightweight, keyboard-driven GUI application for querying Hypixel BedWars statistics of Minecraft players, featuring real-time input capture, automatic UUID resolution, and intuitive stat calculation based on Hypixel's experience formula. Designed for quick access to core BedWars metrics without navigating the Hypixel website or in-game menus.
 Disclaimer
+
 This tool was developed with a focus on simplicity and accessibility for casual Minecraft players. It relies on public Mojang and Hypixel APIs, and while efforts have been made to handle edge cases (e.g., missing player data, division by zero errors), API rate limits, server outages, or changes to Hypixel's stat structure may affect functionality. The code uses threading to prevent GUI freezes and implements basic error handling, but limited testing across all environments means unexpected issues may occur. Contributions to improve reliability or add features (e.g., caching, multi-language support) are welcome.
 Quick Start
 For Users
